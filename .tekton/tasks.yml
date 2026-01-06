@@ -1,0 +1,6 @@
+- name: cleanup
+  taskRef:
+    name: cleanup-task
+- name: test
+  taskRef:
+    name: nose-task   # or jest-task
